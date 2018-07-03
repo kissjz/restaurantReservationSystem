@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>restaurantReservationSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Enter</servlet-name>
+    <servlet-class>servlet.Enter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Enter</servlet-name>
+    <url-pattern>/servlet/Enter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FindBookingsByDateServlet</servlet-name>
+    <servlet-class>servlet.FindBookingsByDateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FindBookingsByDateServlet</servlet-name>
+    <url-pattern>/servlet/FindBookingsByDateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SaveReservationServlet</servlet-name>
+    <servlet-class>servlet.SaveReservationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveReservationServlet</servlet-name>
+    <url-pattern>/servlet/SaveReservationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SaveWalkInServlet</servlet-name>
+    <servlet-class>servlet.SaveWalkInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveWalkInServlet</servlet-name>
+    <url-pattern>/servlet/SaveWalkInServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoActionServlet</servlet-name>
+    <servlet-class>servlet.DoActionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoActionServlet</servlet-name>
+    <url-pattern>/servlet/DoActionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoUpdateReservationTimeServlet</servlet-name>
+    <servlet-class>servlet.DoUpdateReservationTimeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoUpdateReservationTimeServlet</servlet-name>
+    <url-pattern>/servlet/DoUpdateReservationTimeServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>DoDeleteReservationServlet</servlet-name>
+    <servlet-class>servlet.DoDeleteReservationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoDeleteReservationServlet</servlet-name>
+    <url-pattern>/servlet/DoDeleteReservationServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
