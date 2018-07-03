@@ -10,8 +10,8 @@ public class JDBCUtils {
 				ClassNotFoundException {
 			Class.forName("com.mysql.jdbc.Driver");
 			String url = "jdbc:mysql://47.95.10.97:3306/restaurant_reservation";
-			String username = "root";
-	    	String password = "123Abc...";
+			String username = "***";
+	    	String password = "***";
 			Connection conn = DriverManager.getConnection(url, username, password);
 			return conn;
 		}
