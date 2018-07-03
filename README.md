@@ -19,4 +19,4 @@ http://47.95.10.97:8080/restaurantReservationSystem/welcome.jsp
 
 ### 当然，期待你的PR！
 
-  [1]: https://temp-bucket-0703.oss-cn-beijing.aliyuncs.com/img_0165.jpg
+  [1]: https://temp-bucket-0703.oss-cn-beijing.aliyuncs.com/%25I%29H%240QRVH2I%5DRQ4F55%240TF.png
